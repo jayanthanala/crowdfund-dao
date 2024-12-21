@@ -4,7 +4,7 @@ Ashutosh Kumar - ak50514
 Jayanth Anala - ja4874
 
 
-### Project features :bulb:
+### Project features:
 
 - [x] User can start a fundraising.
 - [x] Anyone can contribute.
