@@ -3,9 +3,9 @@
 Ashutosh Kumar - ak50514
 Jayanth Anala - ja4874
 
-[![](https://markdown-videos-api.jorgenkh.no/youtube/{j1Te_lk0Hgk})](https://youtu.be/{j1Te_lk0Hgk}) 
+### Demo Link:- 
 
-Link:- https://youtu.be/j1Te_lk0Hgk
+-- https://youtu.be/j1Te_lk0Hgk
 
 ### Project features:
 
@@ -28,7 +28,6 @@ Link:- https://youtu.be/j1Te_lk0Hgk
 | [tailwind css](https://tailwindcss.com/docs/installation)           | For building design                                                   |       
 | [ether.js](https://docs.ethers.io/v5/)                              | Web3 client (contract testing ).                                      |
 | [web3.js](https://www.npmjs.com/package/web3)                       | Web3 client (Frontend Next.js).                                       |
-| [Chai](https://www.npmjs.com/package/chai)                          | javascript testing framework.                                         |
 | [react-toastify](https://www.npmjs.com/package/react-toastify)      | For Notification.                                                     |   
 | [hardhat](https://www.npmjs.com/package/hardhat)                    | Ethereum development environment.                                     | 
 | [Redux](https://www.npmjs.com/package/hardhat)                      | For managing and centralizing application state.                      |   
