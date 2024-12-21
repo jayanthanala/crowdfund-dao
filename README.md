@@ -1,5 +1,8 @@
 # Crowd funding
 
+Ashutosh Kumar - ak50514
+Jayanth Anala - ja4874
+
 
 ### Project features :bulb:
 
@@ -13,7 +16,7 @@
 - [x] Connect with waller.
 
 
-### Tech stack & packages used 📦
+### Frameworks and Packages
 
 | package                                                             | explain                                                               |
 | ------------------------------------------------------------------- | --------------------------------------------------------------------- |
@@ -30,53 +33,23 @@
 
 ----------------
 
-### How to run :runner: :
+### Run instructions:
 
 - Run hardhat node
     ```
     npx hardhat node
     ```
-- Run test cases
-    ```
-    npx hardhat test
-    ```
 - Connect HardHat Account to Metamask
-
-
-
-- Deploy contract in local hardhat node
     ```
-    npx hardhat run scripts/deploy.js --network localhost
+    add network
+    ```
+- Deploy contract in sepolia testnet or hardhat node(test)
+    ```
+    npx hardhat run scripts/deploy.js --network sepolia
     ```
 - Run Next.js frontend
     ```
-    cd client
     npm run dev
-    ```
-- Connect account to  website
-
-
-### Web3.js 
-------------
-- [Load web3](https://web3js.readthedocs.io/en/v1.2.11/web3-eth.html#web3-eth)
-- [Connect with contract](https://web3js.readthedocs.io/en/v1.2.11/web3-eth-contract.html#web3-eth-contract)
-    ```
-    new web3.eth.Contract(jsonInterface[, address][, options])
-    ```
-- [Callback promises events](https://web3js.readthedocs.io/en/v1.2.11/callbacks-promises-events.html#callbacks-promises-events)
-    ```
-    .on('transactionHash', function(hash){ ... })
-    .on('error', function(error){ ... })
-    ```
-- [Subscribe to event](https://web3js.readthedocs.io/en/v1.2.11/web3-eth-contract.html#contract-events)
-    ```
-    contractName.events.EventName([options][, callback])
-    ```
-- [Fetch all data from contract event](https://web3js.readthedocs.io/en/v1.2.11/web3-eth-contract.html#getpastevents)
-    - <small> An array with the past event Objects, matching the given event name and filter.</small>
-
-    ```
-    contractName.getPastEvents(EventName[, options][, callback])
     ```
 
 ### Hardhat commands
